@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Photo</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/addPhoto.css">
+  <script src="js/addPhoto.js" defer></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="wrapper">
+    <form action="">
+      <h1>Add Photo</h1>
+      <div class="input-box">
+        <input type="text" id="imgUrl" placeholder="Past image url" required>
+        <i class='bx bx-image-add'></i>
+      </div>
+      <button type="submit" class="btn" onclick="addPhoto(event)">Add</button>
+      <a href="myPhotos.html" class="add-button">
+        <i class='bx bxs-left-arrow-circle'></i>
+        Go back
+      </a>
+    </form>
+  </div>
+</body>
+</html>
